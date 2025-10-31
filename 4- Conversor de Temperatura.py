@@ -54,7 +54,7 @@ def converter_temperatura(valor, origem, destino):
 # --- Bloco Principal do Programa ---
 print("--- Conversor Universal de Temperaturas ---")
 temperatura_inicial = obter_temperatura()
-unidade_origem = obter_unidade("Qual a unidade de origem (C, F, K)? ")
+unidade_origem = obter_unidade("Qual a unidade de origem (Celsius, Fahrenheit, Kelvin)? ")
 unidade_destino = obter_unidade("Para qual unidade deseja converter (C, F, K)? ")
 
 # Realiza o cálculo
